@@ -1,3 +1,9 @@
+/* Background Image for Webpage */
+body {
+    background-image: url('https://citilab.org.pk/wp-content/uploads/2019/03/bgnew.jpg');
+}
+
+/*** SECTION: Header ***/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,8 +14,37 @@ header {
 
 header h1 {
     background-color: #3f91d4;
+    margin-left: 20px;
+}
+/*************************************/
+
+/* Line break under 'About Me' */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 5px;
 }
 
+/*** SECTION: Main body (image and text) ***/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*About Me: display characteristics*/
 .container .row h1 {
     color: #3f91d4;
+    margin-left: 35px;
 }
+
+/*Picture: moved to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/**************************************/
+
