@@ -1,0 +1,15 @@
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    background-color: #3f91d4;
+}
+
+.container .row h1 {
+    color: #3f91d4;
+}
