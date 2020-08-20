@@ -32,13 +32,16 @@ hr {
 /***************************************/
 
 
-/*** SECTION: Main body (image and text) ***/
+/*** SECTION: Main body (image and text) alignment on index/contact/portfolio ***/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/***************************************/
 
+
+/*** SECTION: Alignment of text and image on index.html ***/
 /*About Me: display characteristics*/
 .container .row h1 {
     color: #3f91d4;
